@@ -31,22 +31,22 @@ Silme işlemlerinde veri bütünlüğünü korumak için ON DELETE CASCADE yapı
 
 ## 🛠️ Kullanılan Teknolojiler
 
--PostgreSQL
+- PostgreSQL
 
--DBeaver (veritabanı yönetimi)
+- DBeaver (veritabanı yönetimi)
 
--DrawSQL (ER diyagramı tasarımı)
-
--Git & GitHub (versiyon kontrolü)
+- DrawSQL (ER diyagramı tasarımı)
+ 
+- Git & GitHub (versiyon kontrolü)
 
 ## 📂 Proje Dosya Yapısı
 
 
-gamevault-database/
-│
-├─ gamevault.sql
-├─ diagram.png
-└─ README.md
+ gamevault-database/
+ │
+ ├─ gamevault.sql
+ ├─ diagram.png
+ └─ README.md
 
 
 - gamevault.sql :
