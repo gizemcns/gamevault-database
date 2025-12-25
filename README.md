@@ -1,25 +1,25 @@
-🎮 GameVault Veritabanı Projesi
+## 🎮 GameVault Veritabanı Projesi
 
-Bu proje, Steam / Epic Games benzeri dijital bir oyun dağıtım platformu için tasarlanmış ilişkisel bir veritabanını kapsamaktadır.
+-Bu proje, Steam / Epic Games benzeri dijital bir oyun dağıtım platformu için tasarlanmış ilişkisel bir veritabanını kapsamaktadır.
 Projenin amacı; geliştirici firmalar, oyunlar ve oyun türleri arasındaki ilişkileri doğru şekilde modellemek ve SQL sorguları ile yönetmektir.
 
-📌 Proje Kapsamı
+## 📌 Proje Kapsamı
 
-Veritabanı aşağıdaki varlıkları içermektedir:
+- Veritabanı aşağıdaki varlıkları içermektedir:
 
-Developers: Oyun geliştirici firmalar
+- Developers: Oyun geliştirici firmalar
 
-Games: Platformda yer alan oyunlar
+- Games: Platformda yer alan oyunlar
 
-Genres: Oyun türleri
+- Genres: Oyun türleri
 
-Games_Genres: Oyunlar ile türler arasındaki Many-to-Many ilişkiyi yöneten ara tablo
+- Games_Genres: Oyunlar ile türler arasındaki Many-to-Many ilişkiyi yöneten ara tablo
 
-🧱 Veritabanı Tasarımı
+## 🧱 Veritabanı Tasarımı
 
-Veritabanı tasarımı aşağıdaki ilişkilere göre oluşturulmuştur:
+- Veritabanı tasarımı aşağıdaki ilişkilere göre oluşturulmuştur:
 
-Developers → Games : One-to-Many (1 geliştirici, birçok oyun)
+- Developers → Games : One-to-Many (1 geliştirici, birçok oyun)
 
 Games ↔ Genres : Many-to-Many (bir oyun birden fazla türe sahip olabilir)
 
@@ -39,7 +39,7 @@ Silme işlemlerinde veri bütünlüğünü korumak için ON DELETE CASCADE yapı
 
 -Git & GitHub (versiyon kontrolü)
 
-##📂 Proje Dosya Yapısı
+## 📂 Proje Dosya Yapısı
 gamevault-database/
 │
 ├─ gamevault.sql
@@ -59,7 +59,8 @@ Raporlama sorguları
 
 diagram.png : DrawSQL üzerinde oluşturulan ER diyagramı
 
-##🧪 Gerçekleştirilen İşlemler
+## ⚙️ Gerçekleştirilen İşlemler
+
 1️⃣ Tablo Oluşturma (DDL)
 
 Developers
@@ -98,7 +99,7 @@ Sadece RPG türündeki oyunlar
 
 İsmi içinde “War” geçen oyunlar
 
-##🎯 Öğrenilen Kazanımlar
+## 🎯 Öğrenilen Kazanımlar
 
 Bu proje sayesinde:
 
@@ -116,7 +117,7 @@ Gerçek hayata uygun veri modeli oluşturma
 
 konularında pratik yapılmıştır.
 
-##✅ Sonuç
+## ✅ Sonuç
 
 Bu proje, temel ve orta seviye SQL bilgilerini bir araya getirerek gerçekçi bir veritabanı senaryosu sunmaktadır.
 Akademik gereksinimlere uygun şekilde hazırlanmış olup, çalıştırıldığında hatasız sonuç üretmektedir.
