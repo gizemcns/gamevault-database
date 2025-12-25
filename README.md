@@ -42,7 +42,8 @@ Silme işlemlerinde veri bütünlüğünü korumak için ON DELETE CASCADE yapı
 ## 📂 Proje Dosya Yapısı
 
 
- gamevault-database/
+ gamevault-database
+ /
  │
  ├─ gamevault.sql
  ├─ diagram.png
