@@ -1,6 +1,6 @@
 ## 🎮 GameVault Veritabanı Projesi
 
--Bu proje, Steam / Epic Games benzeri dijital bir oyun dağıtım platformu için tasarlanmış ilişkisel bir veritabanını kapsamaktadır.
+- Bu proje, Steam / Epic Games benzeri dijital bir oyun dağıtım platformu için tasarlanmış ilişkisel bir veritabanını kapsamaktadır.
 Projenin amacı; geliştirici firmalar, oyunlar ve oyun türleri arasındaki ilişkileri doğru şekilde modellemek ve SQL sorguları ile yönetmektir.
 
 ## 📌 Proje Kapsamı
@@ -40,6 +40,8 @@ Silme işlemlerinde veri bütünlüğünü korumak için ON DELETE CASCADE yapı
 -Git & GitHub (versiyon kontrolü)
 
 ## 📂 Proje Dosya Yapısı
+
+
 gamevault-database/
 │
 ├─ gamevault.sql
@@ -47,7 +49,7 @@ gamevault-database/
 └─ README.md
 
 
-gamevault.sql :
+- gamevault.sql :
 
 Tablo oluşturma (DDL)
 
@@ -57,7 +59,9 @@ Güncelleme & silme işlemleri
 
 Raporlama sorguları
 
-diagram.png : DrawSQL üzerinde oluşturulan ER diyagramı
+- drawsql_pic.png : 
+
+DrawSQL üzerinde oluşturulan ER diyagramı
 
 ## ⚙️ Gerçekleştirilen İşlemler
 
