@@ -77,9 +77,9 @@ Games_Genres
 
 2️⃣ Veri Ekleme (DML)
 
-5 geliştirici firma
+10 geliştirici firma
 
-5 oyun türü
+10 oyun türü
 
 10 oyun
 
@@ -103,9 +103,10 @@ Sadece RPG türündeki oyunlar
 
 İsmi içinde “War” geçen oyunlar
 
+
 ## 🎯 Öğrenilen Kazanımlar
 
-Bu proje sayesinde:
+-Bu proje sayesinde:
 
 İlişkisel veritabanı tasarımı
 
@@ -123,5 +124,5 @@ konularında pratik yapılmıştır.
 
 ## ✅ Sonuç
 
-Bu proje, temel ve orta seviye SQL bilgilerini bir araya getirerek gerçekçi bir veritabanı senaryosu sunmaktadır.
+- Bu proje, temel ve orta seviye SQL bilgilerini bir araya getirerek gerçekçi bir veritabanı senaryosu sunmaktadır.
 Akademik gereksinimlere uygun şekilde hazırlanmış olup, çalıştırıldığında hatasız sonuç üretmektedir.
