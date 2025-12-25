@@ -28,17 +28,18 @@ Many-to-Many ilişki, games_genres ara tablosu ile çözülmüştür.
 Tüm tablolar Primary Key ve Foreign Key kısıtları kullanılarak ilişkilendirilmiştir.
 Silme işlemlerinde veri bütünlüğünü korumak için ON DELETE CASCADE yapısı uygulanmıştır.
 
-🛠️ Kullanılan Teknolojiler
 
-PostgreSQL
+## 🛠️ Kullanılan Teknolojiler
 
-DBeaver (veritabanı yönetimi)
+-PostgreSQL
 
-DrawSQL (ER diyagramı tasarımı)
+-DBeaver (veritabanı yönetimi)
 
-Git & GitHub (versiyon kontrolü)
+-DrawSQL (ER diyagramı tasarımı)
 
-📂 Proje Dosya Yapısı
+-Git & GitHub (versiyon kontrolü)
+
+##📂 Proje Dosya Yapısı
 gamevault-database/
 │
 ├─ gamevault.sql
@@ -58,7 +59,7 @@ Raporlama sorguları
 
 diagram.png : DrawSQL üzerinde oluşturulan ER diyagramı
 
-🧪 Gerçekleştirilen İşlemler
+##🧪 Gerçekleştirilen İşlemler
 1️⃣ Tablo Oluşturma (DDL)
 
 Developers
@@ -97,7 +98,7 @@ Sadece RPG türündeki oyunlar
 
 İsmi içinde “War” geçen oyunlar
 
-🎯 Öğrenilen Kazanımlar
+##🎯 Öğrenilen Kazanımlar
 
 Bu proje sayesinde:
 
@@ -115,7 +116,7 @@ Gerçek hayata uygun veri modeli oluşturma
 
 konularında pratik yapılmıştır.
 
-✅ Sonuç
+##✅ Sonuç
 
 Bu proje, temel ve orta seviye SQL bilgilerini bir araya getirerek gerçekçi bir veritabanı senaryosu sunmaktadır.
 Akademik gereksinimlere uygun şekilde hazırlanmış olup, çalıştırıldığında hatasız sonuç üretmektedir.
