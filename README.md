@@ -1,11 +1,11 @@
 ## 🎮 GameVault Veritabanı Projesi
 
-- Bu proje, Steam / Epic Games benzeri dijital bir oyun dağıtım platformu için tasarlanmış ilişkisel bir veritabanını kapsamaktadır.
+- Bu proje, Steam / Epic Games benzeri dijital bir oyun dağıtım platformu için tasarlanmış ilişkisel bir PostgreSQL veritabanını kapsamaktadır.
 Projenin amacı; geliştirici firmalar, oyunlar ve oyun türleri arasındaki ilişkileri doğru şekilde modellemek ve SQL sorguları ile yönetmektir.
 
 ## 📌 Proje Kapsamı
 
-- Veritabanı aşağıdaki varlıkları içermektedir:
+- PostgreSQL Veritabanı aşağıdaki varlıkları içermektedir:
 
 - Developers: Oyun geliştirici firmalar
 
